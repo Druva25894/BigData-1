@@ -8,12 +8,9 @@ object Hello_World {
       .appName("first_app")
       .master("local")
       .getOrCreate()
-
+      
     println("helloworld")
-    
     This is to Practice 
-
-
 
   }
 
