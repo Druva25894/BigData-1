@@ -1,7 +1,7 @@
 /*
 package test_program
 
-class GFG
+class GFGG
 {
   var name = "Priyanka"
   var age = 20
