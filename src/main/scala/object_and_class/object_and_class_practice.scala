@@ -1,4 +1,4 @@
-package test_program
+package object_and_class
 
 class test_class1 {
   var name = 25
