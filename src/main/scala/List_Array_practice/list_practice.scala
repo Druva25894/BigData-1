@@ -1,4 +1,4 @@
-package list_practice
+package List_Array_practice
 
 import java.nio.file.Files.list
 import scala.collection.immutable._
