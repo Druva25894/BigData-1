@@ -1,4 +1,4 @@
-package object_and_class
+package Collections
 
 class test_class1 {
   var name = 25
@@ -23,11 +23,11 @@ class test_1 {
 
 object test1
 {
-def main(args: Array[String])
-{
-var ob = new test_1();
-ob.friend();
- }
+  def main(args: Array[String])
+  {
+    var ob = new test_1();
+    ob.friend();
+  }
 }
 
 

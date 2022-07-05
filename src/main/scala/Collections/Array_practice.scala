@@ -1,11 +1,7 @@
-package List_Array_practice
+package Collections
 
-import org.apache.spark.sql.catalyst.expressions.SizeBasedWindowFunction.n
-import org.apache.spark.sql.functions
-
-import Array._
-import scala.+:
-import scala.xml.NodeSeq.Empty.\
+import scala.Array._
+import scala.collection.mutable.ArrayBuffer
 
 
 // Array is mutable and it is homogeneous must be same datatype.
@@ -147,6 +143,61 @@ println("\n---------------------prepanding multiple values---------------")
     for(f <- e){
       println(f)
     }
+
+println("\n-------------------- Array Buffer ----------------------------")
+
+    var A:ArrayBuffer[String] = ArrayBuffer()
+    A += "malli"
+    A += "gk"
+    A += "snadeep"
+
+    for(c <-A){
+
+      println(c)
+    }
+
+println("-------------------- Array Buffer Append ---------------------- ")
+/*
+
+var B: ArrayBuffer[String] = A += ArrayBuffer("bc")
+
+for(w <- B){
+  println(w)
+}
+
+*/
+
+
+println("-------------------- Remove element in Array -------------------")
+
+var B: ArrayBuffer[String] = ArrayBuffer()
+    B += "g"
+    B += "k"
+    B += "k"
+
+    B.remove(0)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
