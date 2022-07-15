@@ -20,7 +20,7 @@ class child3 extends child2{
     println("gk details " + name + "," + age + "," + ph)
   }
 }
-object test3{
+object test4{
 
   def main(args: Array[String]): Unit = {
   //Here i am inititating the class into object

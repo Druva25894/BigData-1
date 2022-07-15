@@ -14,11 +14,10 @@ class single_Inheritance {
 // Using extends i can able to inheritate the Base Class to Derived Class
 class Drived_class extends single_Inheritance {
 
-  var ph: BigInt = 12345678901
-
+  val b = BigInt(1234567890222222L)
   def method: Unit = {
 
-    println("gk details: "+name+","+age+","+","+place+","+ph)
+    println("gk details: "+name+","+age+","+","+place+","+b)
 
   }
 }
@@ -32,3 +31,5 @@ object test2{
 
 
 //BigInt is Not Working
+// A) To use Bigint we should Mention L after the
+
