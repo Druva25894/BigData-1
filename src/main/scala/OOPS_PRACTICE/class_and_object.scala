@@ -13,7 +13,7 @@ class class_and_object {
   }
 }
 
-object test{
+object tst{
   //Def main method for object
   def main(args:Array[String]):Unit = {
 

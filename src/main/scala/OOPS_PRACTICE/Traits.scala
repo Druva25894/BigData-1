@@ -3,44 +3,35 @@ package OOPS_PRACTICE
 // Scala program to illustrate the
 // multiple inheritance using traits
 
-// Trait 1
-trait Geeks1
-{
-  def method1()
-}
-
-// Trait 2
-trait Geeks2
-{
-  def method2()
-}
-
-// Class that implement both Geeks1 and Geeks2 traits
-class GFG extends Geeks1 with Geeks2
-{
-
-  // method1 from Geeks1
-  def method1()
-  {
-    println("Trait 1");
-  }
-
-  // method2 from Geeks2
-  def method2()
-  {
-    println("Trait 2");
-  }
-}
-object Main
-{
-  // Driver code
-  def main(args: Array[String])
-  {
-
-    // Creating object of GFG class
-    var obj = new GFG();
-    obj.method1();
-    obj.method2();
+trait exp1{
+  def print: Unit ={
+    println("this is trait 1 ")
   }
 }
 
+trait exp2{
+  def print2: Unit ={
+    println("this is trait 2")
+  }
+}
+
+trait exp3{
+  def print3: Unit ={
+    println("this is trait 3")
+  }
+}
+
+class traits extends exp1 with exp2 with exp3{
+ /* def print()
+  def print2()
+  def print3()*/
+}
+
+object tt {
+  def main(args: Array[String]): Unit = {
+    val obj = new traits
+    obj.print
+    obj.print2
+    obj.print3
+  }
+}
