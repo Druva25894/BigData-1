@@ -27,7 +27,7 @@ abstract class example {
 class example2() extends example /*with abs_class */{ // Here you can observe i am not able to add another abstract class buz its supports only one.
 
   def abs_method(): Unit ={
-    println("In the incremental class we have to implement the body to abstract method")
+    println("In the incremental class we have to implement the body with abstract method")
   }
   override def nonabs_method3(): Unit ={ // Use the override method incase if want to update implementation
   println("im using the override method in the incremental class")
