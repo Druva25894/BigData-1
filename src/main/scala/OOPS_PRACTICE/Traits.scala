@@ -21,7 +21,7 @@ trait exp3{
   }
 }
 
-class traits extends exp1 with exp2 with exp3{
+class traits5 extends exp1 with exp2 with exp3{
  /* def print()
   def print2()
   def print3()*/
@@ -29,7 +29,7 @@ class traits extends exp1 with exp2 with exp3{
 
 object tt {
   def main(args: Array[String]): Unit = {
-    val obj = new traits
+    val obj = new traits5
     obj.print
     obj.print2
     obj.print3
